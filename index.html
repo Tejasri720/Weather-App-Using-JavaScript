@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="weather.css">
+    
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+<body style="background-image: url('./images.jpg');background-repeat: no-repeat;background-size: cover;">
+    <center><h1 style="color:white ;">Weater app</h1></center>
+    <form id="myform">
+       
+       <i class="fa-solid fa-location-dot"></i>
+       <input style="border-radius: 30px;border:none;" type="text" placeholder="Enter cityname" id="cityname">
+          <button type="submit" class="weather-btn btn-success"style="border-radius:30px;border:none;"> <i class="fa-solid fa-magnifying-glass"></i> Get Weather </button>
+
+    </form>
+    <div id="weather-result">
+    <h2 id="city"></h2>
+    <p id="temp">
+        <i class="fa-solid fa-temperature-high"></i>
+    </p>
+    <p id="humidity">
+        <i class="fa-solid fa-droplet"></i>
+    </p>
+    <p id="pressure">
+         <i class="fa-solid fa-gauge-high"></i>
+    </p>
+    <p id="speed">
+        <i class="fa-solid fa-wind"></i>
+    </p>
+</div>
+    <script src="weather.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -52,7 +52,7 @@ The main objective of this project is to understand API integration, Axios, DOM 
 
 GitHub: [KadavakolluTejasri](https://github.com/Tejasri720)
 
-Portfolio: [My Portfolio](https://tejportfolio-iota.vercel.app/)
+Portfolio: [My Portfolio](https://portfolio-one-sable-krou7q4r7j.vercel.app/)
 
 ---
 ⭐ If you like this project, don't forget to give it a star!
